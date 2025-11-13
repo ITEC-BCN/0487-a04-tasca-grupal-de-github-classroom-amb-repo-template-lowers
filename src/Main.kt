@@ -58,6 +58,7 @@ fun main(){
 
             /** Tirades CPU **/
             acumuladorCPU += Random.nextInt(1, 6 + 1)
+            println("La CPU a tret un ${CARES_DAU[acumuladorCPU-1]} !")
         }
 
         println("Partida acabada!")
